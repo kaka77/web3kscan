@@ -1,6 +1,6 @@
 # Web3k敏感信息扫描工具
 
-这是一款专注于Web敏感信息泄露扫描的工具。它能够快速发现网站上可能存在的敏感文件和目录，包括但不限于：
+一款专注于Web敏感信息泄露扫描的工具。它能够快速发现网站上可能存在的敏感文件和目录，包括但不限于：
 
 - 备份文件（.zip/.rar/.bak等）
 - 版本控制信息（.git/.svn）
@@ -35,8 +35,8 @@
 1. 克隆仓库：
 
 ```
-git clone https://github.com/yourusername/web-sensitive-scanner.git
-cd web-sensitive-scanner
+git clone https://github.com/kaka77/web3kscan.git
+cd web3kscan
 ```
 
 2. 安装依赖：
