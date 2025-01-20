@@ -3,8 +3,9 @@
 ![image](https://raw.githubusercontent.com/kaka77/web3kscan/refs/heads/main/img/example.jpg)
 
 🔍 Web3K - 敏感信息扫描工具 | Web Sensitive Information Scanner
-
 <br>
+
+
 📝 简介 | Introduction
 <br>
 <br>
@@ -13,8 +14,6 @@ A tool focused on scanning web sensitive information leakage. It can quickly dis
 <br>
 <br>
 📂 支持扫描类型 | Supported Scan Types
-<br>
-<br>
 - 备份文件 | Backup files (.zip/.rar/.bak etc.)
 - 版本控制信息 | Version control info (.git/.svn)
 - 配置文件 | Configuration files (.env/config)
@@ -24,45 +23,27 @@ A tool focused on scanning web sensitive information leakage. It can quickly dis
 - 服务器配置文件 | Server configuration files
 - 编辑器临时文件 | Editor temporary files
 - Java相关配置文件 | Java related configuration files
-<br>
-<br>
+
 ✨ 特点 | Features
-<br>
-<br>
 - 多线程扫描，支持自动优化线程数 | Multi-threaded scanning with auto-optimization
-<br>
 - 支持HTTP代理 | HTTP proxy support
-<br>
 - 自定义状态码过滤 | Custom status code filtering
-<br>
 - 详细的扫描日志 | Detailed scan logs
-<br>
 - 支持自定义URL特征库 | Custom URL signature support
-<br>
 - 智能域名变形组合 | Smart domain name mutation
-<br>
-<br>
+
 🚀 主要特性 | Core Features
-<br>
-<br>
 - 智能组合域名/子域名作为文件名进行扫描 | Smart domain/subdomain combination scanning
-<br>
 - 多线程扫描，自动优化线程数和请求延迟 | Multi-threaded scanning with auto-optimization
-<br>
 - 11类敏感信息特征库 | 11 categories of sensitive information signatures
-<br>
 - 支持自定义特征库 | Custom signature library support
-<br>
 - 支持HTTP代理 | HTTP proxy support
-<br>
 - 详细扫描日志 | Detailed scan logs
-<br>
 - 状态码智能过滤 | Smart status code filtering
-<br>
-<br>
+
+
 
 ### 环境要求
-
 ```
 requests>=2.25.1
 urllib3>=1.26.5
