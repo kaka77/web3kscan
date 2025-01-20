@@ -4,13 +4,6 @@ ckeditor/
 tinymce/
 ueditor/
 kindeditor/
-webshell.php
-shell.php
-terminal.php
-cmd.php
-command.php
-c99.php
-r57.php
 mysql-admin/
 filemanager/
 file-manager/
