@@ -9,7 +9,7 @@
 📝 简介 | Introduction
 <br>
 <br>
-一款专注于Web敏感信息泄露扫描的工具。它能够快速发现网站上可能存在的敏感文件和目录，包括但不限于：
+一款专注于Web敏感信息泄露扫描的工具。它能够快速发现网站上可能存在的敏感文件和目录，包括但不限于：<br>
 A tool focused on scanning web sensitive information leakage. It can quickly discover sensitive files and directories that may exist on websites, including but not limited to:
 <br>
 <br>
