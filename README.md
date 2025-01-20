@@ -30,6 +30,34 @@
 - 详细扫描日志
 - 状态码智能过滤
 
+### 环境要求
+```
+requests>=2.25.1
+urllib3>=1.26.5
+certifi>=2021.5.30
+tqdm
+```
+
+
+### 命令行选项
+
+- `url`：目标URL（必需）
+- `-t, --threads`：并发线程数（默认：10）
+- `-p, --proxy`：HTTP代理（例如：http://127.0.0.1:8080）
+- `-d, --delay`：请求间隔时间（秒）（默认：0.5）
+- `-s, --status`：HTTP状态码过滤（例如：-s 200 301 302）
+- `--no-optimize`：禁用自动优化
+- `-f, --file`：自定义URL特征库文件路径
+
+### 特征库文件
+
+工具使用位于 `signatures` 目录下的多个特征库文件：
+
+- `backup_urls.txt`：常见备份文件模式
+- `github_urls.txt`：GitHub和源代码相关文件
+- `env_urls.txt`：环境和配置文件
+- `data_urls.txt`：数据和上传目录
+
 ### 安装方法
 
 1. 克隆仓库：
@@ -59,33 +87,6 @@ python web3k.py example.com
 python web3k.py example.com -t 20 -s 200 -p http://127.0.0.1:8080
 ```
 
-### 命令行选项
-
-- `url`：目标URL（必需）
-- `-t, --threads`：并发线程数（默认：10）
-- `-p, --proxy`：HTTP代理（例如：http://127.0.0.1:8080）
-- `-d, --delay`：请求间隔时间（秒）（默认：0.5）
-- `-s, --status`：HTTP状态码过滤（例如：-s 200 301 302）
-- `--no-optimize`：禁用自动优化
-- `-f, --file`：自定义URL特征库文件路径
-
-### 特征库文件
-
-工具使用位于 `signatures` 目录下的多个特征库文件：
-
-- `backup_urls.txt`：常见备份文件模式
-- `github_urls.txt`：GitHub和源代码相关文件
-- `env_urls.txt`：环境和配置文件
-- `data_urls.txt`：数据和上传目录
-
-### 特征库文件格式示例
-
-**以#开头的是注释**
-```
-.git/config
-.env
-wp-config.php
-```
 ### 使用示例
 
 1. 基本扫描：
@@ -136,11 +137,3 @@ http://example.com/.env [403]
 ### 免责声明
 
 本工具仅用于教育目的。用户需要遵守相关法律法规，对使用该工具的行为负责。
-
-### 环境要求
-```
-requests>=2.25.1
-urllib3>=1.26.5
-certifi>=2021.5.30
-tqdm
-```
