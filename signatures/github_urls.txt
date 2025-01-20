@@ -1,0 +1,31 @@
+# Git相关文件和目录
+.git/
+.git/HEAD
+.git/config
+.git/index
+.git/description
+.git/hooks/
+.git/info/
+.git/objects/
+.git/refs/
+.gitignore
+.gitlab-ci.yml
+.github/
+.github/workflows/
+.git-credentials
+
+# 项目配置文件
+package.json
+package-lock.json
+composer.json
+composer.lock
+yarn.lock
+webpack.config.js
+config.js
+config.json
+.env.example
+.npmrc
+.npmignore
+bower.json
+Gemfile
+Gemfile.lock

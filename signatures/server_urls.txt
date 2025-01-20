@@ -1,0 +1,20 @@
+# 服务器配置和状态
+server-status
+server-info
+status/
+monitor/
+monitoring/
+stats/
+statistics/
+awstats/
+webalizer/
+metrics/
+nginx_status
+apache_status
+.well-known/
+cgi-bin/
+error/
+errors/
+logs/
+log/
+trace/

@@ -1,0 +1,23 @@
+# 常见CMS特征路径
+wp-admin/
+wp-includes/
+wp-content/
+wp-config.php
+administrator/
+joomla.xml
+configuration.php
+admin/config.php
+includes/config.php
+viminfo.php
+phpMyAdmin/
+phpmyadmin/
+PMA/
+pma/
+myadmin/
+sql/
+dbadmin/
+mysql/
+mssql/
+oracle/
+mariadb/
+postgres/

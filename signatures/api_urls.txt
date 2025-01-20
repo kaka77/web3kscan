@@ -1,0 +1,26 @@
+# API接口和文档
+api/
+api/v1/
+api/v2/
+api/doc/
+api/docs/
+api/swagger/
+api/openapi/
+api/specification
+api/admin/
+api/test/
+api/debug/
+swagger/
+swagger-ui/
+swagger-ui.html
+swagger.json
+swagger.yaml
+openapi.json
+openapi.yaml
+graphql
+graphiql
+api-docs/
+redoc/
+apidoc/
+docs/api
+documentation/
