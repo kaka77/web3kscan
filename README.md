@@ -1,5 +1,7 @@
 # Web3kscan敏感信息扫描工具
 
+![image](https://raw.githubusercontent.com/kaka77/web3kscan/refs/heads/main/img/example.jpg)
+
 一款专注于Web敏感信息泄露扫描的工具。它能够快速发现网站上可能存在的敏感文件和目录，包括但不限于：
 
 - 备份文件（.zip/.rar/.bak等）
